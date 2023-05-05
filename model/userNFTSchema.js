@@ -6,9 +6,8 @@ const userNFTSchema = new mongoose.Schema({
     image: String,
     value: Number,
     info: String
-})
+});
 
 const userNFT = mongoose.model("user_albert", userNFTSchema);
 
 module.exports = userNFT;
-export {};
